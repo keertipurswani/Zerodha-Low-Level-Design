@@ -1,0 +1,16 @@
+*.ipch
+*.json
+*.suo
+*.db
+*.filters
+*.user
+*.obj
+*.pdb
+*.tlog
+*.log
+*.exe
+*.idb
+*.txt
+*.ilk
+*.recipe
+
