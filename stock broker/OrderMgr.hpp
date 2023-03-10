@@ -2,6 +2,9 @@
 #include "OrderValidator.hpp"
 #include "OrderExecutioner.hpp"
 
+//This is first place where placeOrder hits, 
+//It manages the validation and execution process
+
 class OrderMgr {
 	OrderValidator* validator;
 	OrderExecutioner* executioner;

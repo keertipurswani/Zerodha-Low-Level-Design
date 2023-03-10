@@ -140,13 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="exchConnector.cpp" />
-    <ClCompile Include="order.cpp" />
-    <ClCompile Include="OrderMgr.cpp" />
-    <ClCompile Include="stock.cpp" />
     <ClCompile Include="stockbroker.cpp" />
     <ClCompile Include="stockInventory.cpp" />
     <ClCompile Include="system.cpp" />
-    <ClCompile Include="user.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.hpp" />

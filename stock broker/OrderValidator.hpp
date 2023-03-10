@@ -2,6 +2,11 @@
 #include "order.hpp"
 #include "system.hpp"
 
+//This class has access to user details
+//It's responsibility is to check if user can place the order or not
+//For demo purposes it returns true 
+//It should be checking if user has enough funds/stocks for the buy/sell order
+
 class OrderValidator {
 public:
 	bool ValidateOrder(string userId, Order* order) {

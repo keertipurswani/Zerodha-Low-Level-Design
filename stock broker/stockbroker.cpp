@@ -1,21 +1,15 @@
 #include "user.hpp"
 #include "OrderMgr.hpp"
 #include "common.hpp"
-/*
-    1. place buy/sell market/limit order
-    2. check enough stocks/money
-    3. deduct stocks/money
-
-
-*/
 
 int main() {
 
     User* user = new User("keerti");
     System::addUser("keerti", user);
+
+    //We haven't dealt with inventory for demo
     //StockInventory* inventory = new StockInventory();
     Stock* SBIStock = new Stock("SBI", 530.0, EXCH::NSE);
-
 
     //inventory->AddStock("SBI", SBIStock);
     //inventory->AddStock("ITC", new Stock("ITC", 375.0, BSE));
